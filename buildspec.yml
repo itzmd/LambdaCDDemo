@@ -1,9 +1,7 @@
 version: 0.1
 phases:
   install:
-  runtime-versions:
-      python: 3.7
-    commands:
+  commands:
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket itzmd-lambda-pipeline --output-template-file outputSamTemplate.yaml
 artifacts:
   type: zip
