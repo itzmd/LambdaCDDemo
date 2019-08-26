@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: '2019-08-22'
+AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2019-08-22'
 Description: CD Demo Lambda
 Resources:
